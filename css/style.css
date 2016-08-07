@@ -11,3 +11,21 @@ h1{
 h2{
 	font-size: 30px;
 }
+h3{
+	font-size: 23px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+p{
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+footer{
+	background: #333;
+	color: #fff;
+	min-height: 200px;
+	text-align: center;
+}
