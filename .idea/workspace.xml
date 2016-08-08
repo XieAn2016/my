@@ -234,7 +234,7 @@
       <option name="presentableId" value="Default" />
       <updated>1470115827825</updated>
       <workItem from="1470115829102" duration="223000" />
-      <workItem from="1470626805654" duration="1357000" />
+      <workItem from="1470626805654" duration="1935000" />
     </task>
     <task id="LOCAL-00001" summary="个人博客的完善">
       <created>1470628043793</created>
@@ -247,10 +247,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1580000" />
+    <option name="totallyTimeSpent" value="2158000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16964285" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
