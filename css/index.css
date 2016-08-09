@@ -205,4 +205,90 @@ ul .share-group{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
+	overflow: hidden;
 }
+#sidebar{
+	width: 300px;
+	background: #333;
+	color: #fff;
+}
+.icon .fa{
+	font-size: 46px;
+	text-align: center;
+	vertical-align: middle;
+	transform: rotate(-45deg);
+	position: relative;
+	top:17px;
+	left: 3px;
+}
+
+#sidebar{
+	
+	position: fixed;
+	top: 0;
+	right:-250px;
+	bottom: 0;
+	width: 250px;
+	background: #333;
+	color: #fff;
+	padding:0px;
+	transition: right 0.5s;
+	z-index: 9;
+}
+#sidebar ul li a{
+	color: #fff;
+	padding: 10px 30px;
+	display: inline-block;
+	text-decoration: none;
+	width: 100%;
+}
+#sidebar ul li a:hover{
+	background: #444;
+}
+.mask{
+	display: none;
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	background: rgba(0,0,0,0.3);
+	z-index:1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
