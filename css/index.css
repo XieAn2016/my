@@ -255,7 +255,12 @@ ul .share-group{
 	background: rgba(0,0,0,0.3);
 	z-index:1;
 }
-
+.back-to-top{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	border: 1px solid #888;				
+}
 
 
 
