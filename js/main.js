@@ -5,15 +5,21 @@
     var sidebar=$('#sidebar'),
     	mask=$('.mask'),
 		sidebar_trigger=$('#sidebar_trigger');
+    
 
 	function showSidebar() {
+   
 		mask.fadeIn();
 		sidebar.css('right',0);
+    
+
 	}
 
 	function hideSidebar(){
+    
 		mask.fadeOut();
 		sidebar.css('right',-sidebar.width());
+    
 	}
 
     sidebar_trigger.on('click',showSidebar);
@@ -34,5 +40,45 @@
    		}
    	})
 
+
+
+
+
+
+$(window).on('scroll',function(){
+  //console.log(flag);
+
+      /*if ($(window).scrollTop()<10) {
+        sidebar.show();
+        mask.show();
+      }else{
+       */
+       // if(flag==1){
+       //  sidebar.hide();
+       //  mask.hide();
+        
+       // }
+
+       mask.trigger('click');
+
+
+
+
+        
+      /*}*/
+    });
+
+    
+
+
+
+
+
+
+
+
+
+
    	$(window).trigger('scroll');
+
 });
